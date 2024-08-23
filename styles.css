@@ -1,0 +1,77 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 20px;
+}
+
+#app {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333333;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#turnos {
+  margin-top: 20px;
+}
+
+.turno,
+.resumen-sector {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  border-left: 4px solid #4caf50;
+}
+
+.turno {
+  border-left-color: #2196f3;
+}
+
+.resumen-sector {
+  border-left-color: #ff5722;
+}
+
+h2 {
+  color: #333333;
+  font-size: 18px;
+}
+
+#resumen {
+  margin-top: 20px;
+}
+
+.resumen-turno {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: crimson;
+}
